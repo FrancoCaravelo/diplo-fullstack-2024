@@ -1,0 +1,164 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  background-color: rgb(145, 145, 145);
+}
+
+.encabezado {
+  background-image: url(imagenes/1297047-free-download-tool-band-wallpaper-2560x1600.jpg);
+  background-repeat: repeat;
+  background-size: contain;
+  background-position-x: center;
+  padding: 2rem;
+  height: 40vh;
+}
+
+.menusuperior {
+  list-style: none;
+  text-align: center;
+}
+
+.menusuperior li {
+  display: inline-block;
+  padding: 2rem;
+}
+
+.menusuperior a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  font-weight: 700;
+  padding: 2rem;
+  font-size: 2.4rem;
+}
+
+.link-abajo a {
+  color: rgb(255, 255, 255);
+  float: right;
+}
+
+.roboto-regular-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  color: red;
+  padding: 20px 10px 20px 10px;
+  margin: 20px 40px 40px 20 px;
+  font-size: 20px;
+}
+
+.footer {
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  clear: both;
+  padding: 2rem;
+}
+
+.box_model {
+  background-color: rgb(255, 255, 255);
+  width: 250px;
+  height: auto;
+  overflow: auto;
+  padding: 20px 10px 20px 10px;
+  margin: 20px 40px 40px 20 px;
+  border: solid rgb(0, 0, 0);
+  float: left;
+}
+
+.box_model2 {
+  background-color: rgb(255, 255, 255);
+  width: 250px;
+  height: auto;
+  overflow: auto;
+  padding: 20px 10px 20px 10px;
+  margin: 20px 40px 40px 20 px;
+  border: solid rgb(0, 0, 0);
+  float: left
+}
+
+.box_model3 {
+  background-color: rgb(255, 255, 255);
+  width: 250px;
+  height: auto;
+  overflow: auto;
+  padding: 20px 10px 20px 10px;
+  margin: 20px 40px 40px 20 px;
+  border: solid rgb(0, 0, 0);
+}
+
+.bloque_linea {
+  display: inline-block;
+  ;
+}
+
+.jacquard-24-charted-regular {
+  font-family: "Jacquard 24 Charted", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 70px;
+  color: rgb(0, 0, 0);
+}
+
+.contenido {
+  background-color: rgb(146, 144, 144);
+  padding: 2rem;
+  width: 25%;
+  float: left;
+  font-size: 25px;
+}
+
+.contenido_imagen {
+  background-color: rgb(145, 145, 145);
+  width: 100%;
+  padding: 2rem;
+
+}
+
+.contenido_imagen img {
+  width: 100%;
+  box-shadow: 5px 5px black;
+  border-radius: 10px;
+
+}
+
+.contenido_sugerencias {
+  background-color: rgb(145, 145, 145);
+  border: solid rgb(145, 145, 145);
+  border-top: solid 12px rgb(145, 145, 145);
+  line-height: 2rem;
+  width: 75%;
+  padding: 2rem;
+  float: right;
+  font-size: 25px;
+}
+
+.sugerencias {
+  width: 100%;
+  padding-top: 1rem;
+
+}
+
+.sugerencias_imagen img {
+  width: 25%;
+  padding-top: 2rem;
+  box-shadow: 5px 5px black;
+  border-radius: 10px;
+}
+
+.lista_sugerencias {
+  padding: 4rem;
+}
+
+.titulo_descripcion {
+  padding-top: 2rem;
+  padding-bottom: 4rem;
+  font-size: 25px;
+}
